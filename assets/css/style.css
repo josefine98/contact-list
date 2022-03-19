@@ -1,0 +1,57 @@
+* {
+    --blue: #2AC0F6; 
+    --darkBlue: #022185; 
+    --white: #ffffff; 
+    --black: #000000; 
+}
+
+html {
+    background-color: var(--blue);
+}
+
+body {
+    margin: 4vw 20vw; 
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 24px; 
+    font-weight: 700;
+    margin-top: 0; 
+}
+
+p {
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+i {
+    font-size: 20px; 
+    color: var(--darkBlue); 
+}
+
+a {
+    text-decoration: none;
+    color: var(--black); 
+}
+
+img {
+    width: 300px; 
+    height: 300px; 
+}
+
+.contact {
+    background-color: var(--white);
+    padding: 2vw; 
+    margin: 2vw; 
+    display: flex; 
+}
+
+.contactInfoText {
+    margin: 0 2vw; 
+}
+
+.address {
+    margin-bottom: 2vw; 
+}
